@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
-# bin/detect <build-dir>
+#!/bin/sh
 
-echo "Xvfb" && exit 0
+echo "xvfb"
+exit 0
