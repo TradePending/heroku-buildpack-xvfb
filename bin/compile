@@ -31,6 +31,7 @@ function indent() {
 }
 
 PACKAGES="
+  libglu1
   xvfb
 "
 
@@ -107,3 +108,4 @@ EOF
 
 topic "Cleaning up"
 rm -rf $APT_CACHE_DIR/archives/*
+rm -rf /app/.apt/opt/google
