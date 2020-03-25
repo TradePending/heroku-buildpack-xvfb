@@ -106,5 +106,4 @@ export DISPLAY=:42
 EOF
 
 topic "Cleaning up"
-apt-get clean
-apt-get autoclean
+rm -rf $APT_CACHE_DIR/archives/*
