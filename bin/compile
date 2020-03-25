@@ -104,3 +104,7 @@ cat <<EOF >$BUILD_DIR/.profile.d/010_xvfb.sh
 Xvfb :42 </dev/null &> /dev/null &
 export DISPLAY=:42
 EOF
+
+topic "Cleaning up"
+apt-get clean
+apt-get autoclean
